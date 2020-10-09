@@ -5,10 +5,9 @@ public class zad8 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 int k1=10000;
-double ultraKala1=10000;
-double kKala=0;
+double ultraKala1=10000,kKala=0,ultraKala=0.06;
 int k2=10;
-double ultraKala=0.06;
+
 
 for(int i=0;i<=k2;i++) {
 	
