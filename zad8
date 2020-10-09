@@ -1,0 +1,23 @@
+package greativity;
+
+public class zad8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int k1=10000;
+int k2=10;
+double ultraKala=0.06;
+double ultraKala1=10000;
+double kKala=0;
+for(int i=0;i<=k2;i++) {
+	
+	ultraKala1+=k1*ultraKala;
+	System.out.println("Period sum:"+ ultraKala1);
+}
+for(int i=0;i<4;i++) {
+	kKala+=ultraKala1;
+	ultraKala1+=ultraKala1*ultraKala;
+}
+System.out.println("Entire money:"+kKala);
+}
+	}
